@@ -5,5 +5,5 @@ Copied from: <https://www.pathofexile.com/forum/view-thread/3009944>
 # Install PoB
 
 ```sh
-bash <(curl -s http://mywebsite.example/myscript.txt)
+curl -s https://raw.githubusercontent.com/ThaiJamesLee/PoB-MacOS/main/install.sh | sh
 ```
