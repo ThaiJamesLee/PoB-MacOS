@@ -3,10 +3,6 @@ POB_GH_LINK=https://github.com/hsource/pobfrontend/releases/latest/download/Path
 
 cd ~/Downloads
 
-if [ -d PathOfBuilding ]; then
-    rm -rf PathOfBuilding
-fi
-
 echo "GET ${POB_GH_LINK}"
 curl -L $POB_GH_LINK --output PathOfBuilding.zip
 
