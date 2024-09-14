@@ -12,5 +12,7 @@ unzip -o PathOfBuilding.zip -d pob_tmp
 echo "Move PathOfBuilding to Applications..."
 mv -f pob_tmp/PathOfBuilding.app /Applications
 
+sudo xattr -d com.apple.quarantine /Applications/PathOfBuilding.app
+
 echo "Clean up..."
 rm -rf pob_tmp
